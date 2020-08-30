@@ -174,8 +174,11 @@ a{
 }
 
 .contenedor-contact-me{
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  width: 750px;
+  max-width: 100%;
   margin: 0 auto;
-
 }
 
 .last-container{
