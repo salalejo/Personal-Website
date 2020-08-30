@@ -1,0 +1,256 @@
+/* ==================================== ELEMENTS ==================================== */
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  color: #112929;
+  font-size: 1.5em;
+}
+
+h3{
+  color: #112929;
+  font-family: 'Codystar', cursive;
+  font-weight: 900;
+}
+
+a{
+  font-family: 'Cabin', sans-serif;
+  color: #112929;
+  text-decoration: none;
+}
+
+/* ==================================== CLASSES ===================================== */
+.top {
+  margin: 0;
+  padding-top: 100px;
+  background-color: #d9fffd;
+
+  width: 100%;
+  overflow: hidden;
+}
+
+.contenedor-nombre {
+  color: #112929;
+  position: relative;
+
+}
+
+.txt-alejo {
+  font-family: 'Press Start 2P', cursive;
+  padding: 10rem 0 0 0;
+  font-size: 2.5rem;
+}
+
+.txt-programador {
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.5rem;
+}
+
+.img-cloud1 {
+  position: absolute;
+  right: 10%;
+  padding-top: 30px;
+  width: 200px;
+  max-width: 30%;
+}
+
+.img-cloud2 {
+  position: absolute;
+  left: 10%;
+  width: 200px;
+}
+.cont-montaña{
+  box-sizing: border-box;
+
+}
+
+.tam-montaña{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.img-mountain {
+  width: 100%;
+}
+
+.img-profile-pic {
+  width: 200px;
+  padding: 3rem 0 0 0;
+}
+
+
+
+.img-programador {
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.desplazable-relativo {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: auto;
+  background-color: #78cfcb;
+  z-index: 2;
+}
+
+.desplazable-tamaño{
+  max-width: 1080px;
+  position: relative;
+  margin: 0 auto;
+  text-align: Start;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 20px;
+}
+
+.link-contacto {
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  display: inline-block;
+}
+
+.link-proyectos {
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  display: inline-block;
+}
+
+.contenedor-hola {
+  margin: 20px auto;
+  line-height: 1.5rem;
+}
+
+.h1-hola {
+  padding-top: 30px;
+  font-family: 'Press Start 2P', cursive;
+  color: #112929
+}
+
+.contenedor-biografia {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 750px;
+  max-width: 100%;
+}
+
+.txt-biografia {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+}
+
+.img-usb-cable{
+  padding: 50px;
+  width: 50px;
+  transform: rotate(90deg);
+}
+
+.img-habilidades-float{
+  width: 150px;
+}
+
+.cont-habilidades{
+  padding: 50px;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+.sub-habilidades{
+  text-align: left;
+  padding-top: 50px;
+  width: 750px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.contenedor-contact-me{
+  margin: 0 auto;
+
+}
+
+.last-container{
+  background-color: #78cfcb;
+  padding-top: 60px;
+}
+.txt-made-by{
+  font-size: 0.8em;
+  color: gray;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.facebook-link{
+  margin: 0 2em;
+}
+
+.button-contact-me{
+  background: #78CFCB;
+  background-image: -webkit-linear-gradient(top, #78CFCB, #0E3E3C);
+  background-image: -moz-linear-gradient(top, #78CFCB, #0E3E3C);
+  background-image: -ms-linear-gradient(top, #78CFCB, #0E3E3C);
+  background-image: -o-linear-gradient(top, #78CFCB, #0E3E3C);
+  background-image: linear-gradient(to bottom, #78CFCB, #0E3E3C);
+  -webkit-border-radius: 63px;
+  -moz-border-radius: 63px;
+  border-radius: 63px;
+  color: #C9C9C9;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #FFFFFF 0px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+   
+}
+
+.button-contact-me:hover{
+  background: #0E3E3C;
+  border: solid #000000 0px;
+  -webkit-border-radius: 63px;
+  -moz-border-radius: 63px;
+  border-radius: 63px;
+  text-decoration: none;
+}
+/* ==================================== IDS ========================================= */
+
+#img-code{
+  float: left;
+  margin-right: 30px;
+}
+
+#img-pan{
+  float: right;
+  margin-left: 30px;
+}
+
+#img-burger{
+  float: left;
+  margin-right: 30px;
+}
+
+#txt-interesado{
+  padding: 50px;
+}
+
+#logo{
+  display: inline-block;
+  padding-left: 50px;
+}
